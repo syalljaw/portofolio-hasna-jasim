@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-ashh-white: #FFFFFF;
+  --color-ashh-softpink: #F8D9E8;
+  --color-ashh-lavender: #DCC6F0;
+  --color-ashh-lightgray: #F3F4F6;
+  --color-ashh-accentpink: #E9A8C8;
+
+  --font-poppins: var(--font-poppins);
+  --font-jakarta: var(--font-jakarta);
+  --font-outfit: var(--font-outfit);
+}
+
+body {
+  @apply font-jakarta bg-ashh-lightgray text-gray-800 antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ashh-lightgray);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ashh-accentpink);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ashh-lavender);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
