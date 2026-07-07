@@ -1,0 +1,8 @@
+{
+  "name": "Ashh - Portfolio",
+  "description": "A modern, aesthetic portfolio website for visual artist @luaveren, featuring a clean pastel design, masonry gallery, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
